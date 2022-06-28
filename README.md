@@ -31,3 +31,4 @@ https://wokwi.com/projects/335611619397599827 :-varring with distance using led<
 
 https://wokwi.com/projects/335615459073196626 :-2 Ultrasonic sensor buzzer and led
 
+https://wokwi.com/projects/335701949911401042 :- Potentiometer with LED
