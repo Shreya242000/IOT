@@ -16,6 +16,8 @@ https://wokwi.com/projects/334977602579071570 :-Servo motor with slide potentiom
 <br>
 https://wokwi.com/projects/334977602579071570 :-Servo motor with slide potentiometer<br>
 <br>
+https://wokwi.com/projects/335702826545054292 :-Servo meter with pushbutton
+<br>
 https://wokwi.com/projects/335065707348755026 :-BUZZER<br>
 <br>
 https://wokwi.com/projects/335065844754154067 :-BUZZER with Push button<br>
@@ -28,9 +30,7 @@ https://wokwi.com/projects/335075055329346132 :-varring with intensity of Ultras
 <br>
 https://wokwi.com/projects/335611619397599827 :-varring with distance using led<br>
 <br>
-
 https://wokwi.com/projects/335615459073196626 :-2 Ultrasonic sensor buzzer and led
-
+<br>
 https://wokwi.com/projects/335701949911401042 :- Potentiometer with LED
 
-https://wokwi.com/projects/335703320809177684 :servometer with push button
