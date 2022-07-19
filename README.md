@@ -35,48 +35,48 @@ https://wokwi.com/projects/335615459073196626 :-2 Ultrasonic sensor buzzer and l
 https://wokwi.com/projects/335701949911401042 :- Potentiometer with LED
 
 
-#Ultrasonic sensor
-const int trigPin = D6;
-const int echoPin = D5;
+#Ultrasonic sensor<br>
+const int trigPin = D6;<br>
+const int echoPin = D5;<br>
 
-//define sound velocity in cm/uS
-#define SOUND_VELOCITY 0.034
-#define CM_TO_INCH 0.393701
+//define sound velocity in cm/uS<br>
+#define SOUND_VELOCITY 0.034<br>
+#define CM_TO_INCH 0.393701<br>
 
-long duration;
-float distanceCm;
-float distanceInch;
+long duration;<br>
+float distanceCm;<br>
+float distanceInch;<br>
 
-void setup() {
-  Serial.begin(9600); // Starts the serial communication
-  pinMode(trigPin, OUTPUT); // Sets the trigPin as an Output
-  pinMode(echoPin, INPUT); // Sets the echoPin as an Input
+void setup() {<br>
+  Serial.begin(9600); // Starts the serial communication<br>
+  pinMode(trigPin, OUTPUT); // Sets the trigPin as an Output<br<br>>
+  pinMode(echoPin, INPUT); // Sets the echoPin as an Input<br>
 }
 
-void loop() {
-  // Clears the trigPin
-  digitalWrite(trigPin, LOW);
-  delayMicroseconds(2);
-  // Sets the trigPin on HIGH state for 10 micro seconds
-  digitalWrite(trigPin, HIGH);
-  delayMicroseconds(10);
-  digitalWrite(trigPin, LOW);
+void loop() {<br>
+  // Clears the trigPin<br>
+  digitalWrite(trigPin, LOW);<br>
+  delayMicroseconds(2);<br>
+  // Sets the trigPin on HIGH state for 10 micro seconds<br>
+  digitalWrite(trigPin, HIGH);<br>
+  delayMicroseconds(10);<br>
+  digitalWrite(trigPin, LOW);<br>
   
-  // Reads the echoPin, returns the sound wave travel time in microseconds
-  duration = pulseIn(echoPin, HIGH);
+  // Reads the echoPin, returns the sound wave travel time in microseconds<br>
+  duration = pulseIn(echoPin, HIGH);<br>
   
-  // Calculate the distance
-  distanceCm = duration * SOUND_VELOCITY/2;
+  // Calculate the distance<br>
+  distanceCm = duration * SOUND_VELOCITY/2;<br>
   
-  // Convert to inches
-  distanceInch = distanceCm * 0.393701;
+  // Convert to inches<br>
+  distanceInch = distanceCm * 0.393701;<br>
   
-  // Prints the distance on the Serial Monitor
-  Serial.print("Distance (cm): ");
-  Serial.println(distanceCm);
-  Serial.print("Distance (inch): ");
-  Serial.println(distanceInch);
+  // Prints the distance on the Serial Monitor<br>
+  Serial.print("Distance (cm): ");<br>
+  Serial.println(distanceCm);<br>
+  Serial.print("Distance (inch): ");<br>
+  Serial.println(distanceInch);<br>
   
-  delay(1000);
-}
+  delay(1000);<br>
+}<br>
 
