@@ -34,6 +34,6 @@ https://wokwi.com/projects/335615459073196626 :-2 Ultrasonic sensor buzzer and l
 <br>
 https://wokwi.com/projects/335701949911401042 :- Potentiometer with LED<br>
 
-DHT22(Humidity and Temperature sensor ESP32 :- https://wokwi.com/projects/337604163653337682<br>
+https://wokwi.com/projects/337604163653337682 :-DHT22(Humidity and Temperature sensor ESP32 <br>
 
-DHT22(Humidity and Temperature sensor ESP32 with LCD :- https://wokwi.com/projects/337604296859189842<br>
+https://wokwi.com/projects/337604296859189842 :-DHT22(Humidity and Temperature sensor ESP32 with LCD<br>
