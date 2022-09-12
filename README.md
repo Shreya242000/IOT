@@ -171,3 +171,7 @@ Display distance on LCD screen with buzzer and LED Reference 1:<br>
 https://wokwi.com/projects/342589400784306771<br>
 
 https://wokwi.com/projects/342590121552380499<br>
+
+Electronic Safe, powered by an Arduino Uno.<br>
+https://wokwi.com/projects/342591790465942100<br>
+
