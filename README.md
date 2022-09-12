@@ -145,3 +145,13 @@ void loop() {<br>
   delay(250);<br>
 }<br>
 <br>
+<br>
+Seven segment LED display example: Counter Reference: https://wokwi.com/arduino/libraries/SevSeg/SevSeg_Counter<br>
+
+Analog Joystick with two axes (horizontal/vertical) and an integrated push button. Etch-a-sketch - A simple drawing game using a MAX7219 LED Dot Matrix Reference: https://wokwi.com/projects/296234816685212169 DHT22 on the ESP32 Reference: https://wokwi.com/projects/322410731508073042<br>
+
+Display distance on LCD screen with buzzer and LED  Reference 1: https://wokwi.com/projects/290056311044833800 Reference2: <br>https://wokwi.com/projects/290043622233997832<br>
+
+ Electronic Safe, powered by an Arduino Uno. Reference: https://wokwi.com/arduino/libraries/demo/electronic-safe<br>
+
+Arduino LED Graph Bar - Move the potentiometer knob to control the LEDs Reference:  https://wokwi.com/projects/309829489359061570<br>
